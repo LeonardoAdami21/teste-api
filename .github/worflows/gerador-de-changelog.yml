@@ -23,7 +23,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         name: "Gerador de changelog"
-        email: "lolozinhbr1000@gmail.com.com"
+        email: "lolzinhobr1000@gmail.com.com"
 
     # instala a versão 11.x do Node.js
     - name: Instala o Node.js 20.x
