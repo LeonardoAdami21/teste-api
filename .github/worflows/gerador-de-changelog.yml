@@ -21,7 +21,7 @@ jobs:
     - name: Configura o GitHub token
       uses: LeonardoAdami21/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
       with:
-        token: $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
+        token: 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
         name: "Gerador de changelog"
         email: "lolzinhobr1000@gmail.com"
 
