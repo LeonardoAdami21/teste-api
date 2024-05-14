@@ -14,20 +14,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@20
 
     # configura o GITHUB_TOKEN
     # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/authenticating-with-the-github_token
     - name: Configura o GitHub token
       uses: LeonardoAdami21/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
       with:
-        token: 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
+        token: ${{ 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 }}
         name: "Gerador de changelog"
-        email: "lolzinhobr1000@gmail.com"
+        email: "lolozinhbr1000@gmail.com.com"
 
-    # instala a versão 20.x do Node.js
+    # instala a versão 11.x do Node.js
     - name: Instala o Node.js 20.x
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@20
       with:
         node-version: 20.x
 
