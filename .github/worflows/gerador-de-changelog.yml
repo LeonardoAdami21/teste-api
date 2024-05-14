@@ -19,9 +19,9 @@ jobs:
     # configura o GITHUB_TOKEN
     # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/authenticating-with-the-github_token
     - name: Configura o GitHub token
-      uses: LeonardoAdami21/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
+      uses: LeonardoAdami21/setup-git-token@v1
       with:
-        token: ${{ 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 }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         name: "Gerador de changelog"
         email: "lolozinhbr1000@gmail.com.com"
 
