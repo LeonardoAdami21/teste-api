@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.1.0](https://github.com/LeonardoAdami21/teste-api/compare/v0.0.1...v0.1.0) (2024-05-18)
 
+## 0.0.1 (2024-05-14)
 
 ### ⚠ BREAKING CHANGES
 
@@ -16,4 +17,4 @@ All notable changes to this project will be documented in this file. See [standa
 
 * refactor/fix-changelog-md ([bae4865](https://github.com/LeonardoAdami21/teste-api/commit/bae4865f326dd4d0864838ba4fbc47ce64c0577f))
 
-## 0.0.1 (2024-05-14)
+
